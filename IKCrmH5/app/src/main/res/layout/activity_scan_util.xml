@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <cn.bingoogolapple.qrcode.zbar.ZBarView
+        android:id="@+id/vZBarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:qrcv_animTime="1000"
+        app:qrcv_barCodeTipText="请把二维码/条码对准扫描框"
+        app:qrcv_barcodeRectHeight="160dp"
+        app:qrcv_borderColor="@color/white"
+        app:qrcv_borderSize="1dp"
+        app:qrcv_cornerColor="@color/colorPrimaryDark"
+        app:qrcv_cornerLength="20dp"
+        app:qrcv_cornerSize="3dp"
+        app:qrcv_isBarcode="false"
+        app:qrcv_isOnlyDecodeScanBoxArea="true"
+        app:qrcv_isScanLineReverse="true"
+        app:qrcv_isShowDefaultGridScanLineDrawable="true"
+        app:qrcv_isShowDefaultScanLineDrawable="true"
+        app:qrcv_isShowLocationPoint="true"
+        app:qrcv_isShowTipBackground="true"
+        app:qrcv_isShowTipTextAsSingleLine="false"
+        app:qrcv_isTipTextBelowRect="false"
+        app:qrcv_maskColor="#33FFFFFF"
+        app:qrcv_qrCodeTipText="请把二维码/条码对准扫描框"
+        app:qrcv_rectWidth="240dp"
+        app:qrcv_scanLineColor="@color/colorPrimaryDark"
+        app:qrcv_tipBackgroundColor="#44000000"
+        app:qrcv_toolbarHeight="50dp"
+        app:qrcv_topOffset="100dp"
+        app:qrcv_verticalBias="-1">
+
+    </cn.bingoogolapple.qrcode.zbar.ZBarView>
+
+    <com.lixiaoyun.aike.widget.AKTitleBar
+        android:id="@+id/vAkTitleBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:centerText="扫码"
+        app:centerTextShowAble="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:leftIconShowAble="true"
+        app:leftShowAble="true"
+        app:leftText="返回"
+        app:leftTextShowAble="true">
+
+    </com.lixiaoyun.aike.widget.AKTitleBar>
+
+    <ImageView
+        android:id="@+id/vImgFlashLamp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/ic_flash_lamp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

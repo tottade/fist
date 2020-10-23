@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">爱客云</string>
+
+    <!--前台服务-->
+    <string name="tip_keep_alive_service">爱客云平台实时为您服务</string>
+    <!--通知渠道信息-->
+    <string name="notify_channel_name">爱客云通知</string>
+    <string name="notify_channel_description">爱客云通知信息展示渠道</string>
+
+    <!--推送拨号错误信息-->
+    <string name="toast_take_call_back_stage">请确保您的爱客云APP处于前台活动状态，否则无法被唤起</string>
+    <string name="toast_take_call_calling">您的爱客云APP正在通话中，无法被唤起。请在通话结束后，重新尝试</string>
+    <string name="toast_take_call_not_same">您当前登录的爱客云APP账户与网页端登录账户不一致，无法被唤起</string>
+    <string name="toast_take_call_time_out">唤起爱客云APP超时，请重新尝试</string>
+
+</resources>

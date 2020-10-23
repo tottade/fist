@@ -1,0 +1,98 @@
+{
+  "version": "3.30.1",
+  "date": "2019/03/20",
+  "path": [
+    {
+      "rom": "MIUI",
+      "display": [
+        {
+          "path": "/MIUI/sound_recorder/call_rec/"
+        }
+      ]
+    },
+    {
+      "rom": "EMUI",
+      "display": [
+        {
+          "path": "/Sounds/CallRecord/"
+        },
+        {
+          "path": "/sounds/callrecord/"
+        },
+        {
+          "path": "/Recordings/"
+        },
+        {
+          "path": "/record/"
+        }
+      ]
+    },
+    {
+      "rom": "OPPO",
+      "display": [
+        {
+          "path": "/Recordings/Call Recordings/"
+        },
+        {
+          "path": "/recordings/call recordings/"
+        },
+        {
+          "path": "/Recordings/Standard Recordings"
+        },
+        {
+          "path": "/Recordings/"
+        }
+      ]
+    },
+    {
+      "rom": "VIVO",
+      "display": [
+        {
+          "path": "/Record/Call/"
+        },
+        {
+          "path": "/record/call/"
+        },
+        {
+          "path": "/录音/通话录音/"
+        }
+      ]
+    },
+    {
+      "rom": "FLYME",
+      "display": [
+        {
+          "path": "/Recorder/Call/"
+        }
+      ]
+    },
+    {
+      "rom": "SAMSUNG",
+      "display": [
+        {
+          "path": "/Call/"
+        }
+      ]
+    },
+    {
+      "rom": "OTHER",
+      "display": [
+        {
+          "path": "/Call/"
+        },
+        {
+          "path": "/Music/SoundRecords/"
+        },
+        {
+          "path": "/neoRecorder/CallRecorder/"
+        },
+        {
+          "path": "/recordings/call recordings"
+        },
+        {
+          "path": "/callrecord/"
+        }
+      ]
+    }
+  ]
+}

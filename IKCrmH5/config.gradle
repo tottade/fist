@@ -1,0 +1,44 @@
+ext {
+    //项目配置
+    compileSdkVersion = 29//[29]
+    minSdkVersion = 23//[21]
+    targetSdkVersion = 28//[28]
+
+    LX_VERSION_NAME = 'v4.2.1'
+    LX_VERSION_CODE = 41
+
+    IK_VERSION_NAME = 'v4.2.1.0'
+    IK_VERSION_CODE = 41
+
+    //包名配置
+    LX_APP_ID = "com.lixiaoyun.aike"
+    IK_APP_ID = "com.aikeyun.aike"
+
+    //高德地图Key
+    LX_GD_MAP_KEY = "f65ed97d54f4e1738be9fbaeb86870f3"
+    IK_GD_MAP_KEY = "58318bb3056fb20baa10efcb9ac46914"
+
+    //华为推送
+    LX_HW_PUSH_ID = "100860035"
+    IK_HW_PUSH_ID = "101254175"
+
+    //个推推送
+    LX_GETUI_APP_ID = "w4SrLQgujP8Kq0nrhgs6Z6"
+    LX_GETUI_APP_KEY = "0J8wXewzYk7CepWIgWq9WA"
+    LX_GETUI_APP_SECRET = "w4SrLQgujP8Kq0nrhgs6Z6"
+    IK_GETUI_APP_ID = "TdXw1HwvOR8MXLJRKHak86"
+    IK_GETUI_APP_KEY = "Iau0Za5jNM7jhrFhMI0DI6"
+    IK_GETUI_APP_SECRET = "LzkVbBxc6A97vs47hz7VR"
+
+    //小米推送
+    LX_XM_PUSH_ID = "2882303761518026475"
+    LX_XM_PUSH_KEY = "5881802642475"
+    IK_XM_PUSH_ID = "2882303761518217100"
+    IK_XM_PUSH_KEY = "5211821774100"
+
+    //听云
+    LX_TY_URL_SCHEME = "tingyun.38164"
+    LX_TY_APP_KEY = "76203f94a23f40b3b50ce9c4fa8e81e8"
+    IK_TY_URL_SCHEME = "tingyun.38941"
+    IK_TY_APP_KEY = "8740a8e2bbc84a13b6a2358aeb9b945e"
+}

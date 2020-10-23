@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AKTitleBar">
+        <attr name="leftShowAble" format="boolean" />
+        <attr name="leftIconDrawable" format="reference" />
+        <attr name="leftIconShowAble" format="boolean" />
+        <attr name="leftText" format="string" />
+        <attr name="leftEnable" format="boolean" />
+        <attr name="leftTextShowAble" format="boolean" />
+        <attr name="centerText" format="string" />
+        <attr name="centerEnable" format="boolean" />
+        <attr name="centerTextShowAble" format="boolean" />
+        <attr name="rightShowAble" format="boolean" />
+        <attr name="rightIconDrawable" format="reference" />
+        <attr name="rightIconEnable" format="boolean" />
+        <attr name="rightIconShowAble" format="boolean" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextEnable" format="boolean" />
+        <attr name="rightTextShowAble" format="boolean" />
+        <attr name="msgNum" format="string" />
+        <attr name="msgNumShowAble" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="tl" format="boolean" />
+        <attr name="tr" format="boolean" />
+        <attr name="bl" format="boolean" />
+        <attr name="br" format="boolean" />
+        <attr name="radius" format="dimension" />
+        <attr name="tlRadius" format="dimension" />
+        <attr name="trRadius" format="dimension" />
+        <attr name="blRadius" format="dimension" />
+        <attr name="brRadius" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_launcher"
+    android:fitsSystemWindows="true"
+    tools:ignore="RtlSymmetry,ContentDescription,HardcodedText,KeyboardInaccessibleWidget">
+
+    <com.lixiaoyun.aike.widget.RoundedImageView
+        android:id="@+id/vImgLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintBottom_toTopOf="@+id/glLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:radius="5dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <ImageView
+        android:id="@+id/vImgUsername"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:paddingStart="20dp"
+        android:paddingEnd="2dp"
+        android:src="@drawable/ic_username"
+        app:layout_constraintBottom_toTopOf="@+id/glMain"
+        app:layout_constraintEnd_toStartOf="@+id/vEtUsername"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/vEtUsername"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/login_username_hint"
+        android:inputType="phone"
+        android:paddingStart="6dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/gray_d0d0d0"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/glMain"
+        app:layout_constraintEnd_toStartOf="@+id/vImgClearUsername"
+        app:layout_constraintStart_toEndOf="@+id/vImgUsername" />
+
+    <ImageView
+        android:id="@+id/vImgClearUsername"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="0"
+        android:background="@color/white"
+        android:clickable="true"
+        android:padding="15dp"
+        android:src="@drawable/ic_delete"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/glMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vEtUsername" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.43" />
+
+    <ImageView
+        android:id="@+id/vImgPassword"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:paddingStart="20dp"
+        android:paddingEnd="2dp"
+        android:src="@drawable/ic_userpwd"
+        app:layout_constraintEnd_toStartOf="@+id/vEtUsername"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/glMain" />
+
+    <EditText
+        android:id="@+id/vEtPassword"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:cursorVisible="true"
+        android:digits="@string/rule_password"
+        android:hint="@string/login_password_hint"
+        android:inputType="textPassword"
+        android:paddingStart="6dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/gray_d0d0d0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vImgPassword"
+        app:layout_constraintTop_toTopOf="@+id/glMain" />
+
+    <TextView
+        android:id="@+id/vTvLogin"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_main_5dp"
+        android:gravity="center"
+        android:text="@string/login_login_button_text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vEtPassword"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vTvLogin"
+        app:layout_constraintWidth_percent="0.9">
+
+        <TextView
+            android:id="@+id/vTvRegistered"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:paddingStart="2dp"
+            android:text="免费注册"
+            android:textColor="#595959"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/vTvForgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:paddingEnd="2dp"
+            android:text="忘记密码？"
+            android:textColor="#595959"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/vLlDisclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <CheckBox
+            android:id="@+id/vCbDisclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:background="@null"
+            android:button="@drawable/checkbox_bg"
+            android:textColor="#595959" />
+
+        <TextView
+            android:id="@+id/vTvText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:text="我已阅读并同意"
+            android:textColor="#595959"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/vTvDisclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:text="服务协议"
+            android:textColor="#595959"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

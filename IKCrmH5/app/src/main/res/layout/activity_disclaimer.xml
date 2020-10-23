@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.lixiaoyun.aike.widget.AKTitleBar
+        android:id="@+id/vAkTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:centerText="服务协议"
+        app:centerTextShowAble="true"
+        app:leftIconShowAble="true"
+        app:leftShowAble="true"
+        app:leftText="返回"
+        app:leftTextShowAble="true">
+
+    </com.lixiaoyun.aike.widget.AKTitleBar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_service_agreement"
+            android:textColor="#555"
+            android:textSize="16sp" />
+
+    </ScrollView>
+
+</LinearLayout>

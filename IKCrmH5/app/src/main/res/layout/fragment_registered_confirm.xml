@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.lixiaoyun.aike.widget.AKTitleBar
+        android:id="@+id/vAkTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:centerText="初始化设置"
+        app:centerTextShowAble="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:leftIconDrawable="@drawable/ic_arrow_left"
+        app:leftIconShowAble="true"
+        app:leftShowAble="true"
+        app:leftText="返回"
+        app:leftTextShowAble="true">
+
+    </com.lixiaoyun.aike.widget.AKTitleBar>
+
+    <com.lixiaoyun.aike.widget.TipsTextView
+        android:id="@+id/vTvOrgName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vAkTitleBar"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <com.lixiaoyun.aike.widget.TipsTextView
+        android:id="@+id/vTvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vTvOrgName"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <com.lixiaoyun.aike.widget.TipsTextView
+        android:id="@+id/vTvPosition"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vTvName"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <com.lixiaoyun.aike.widget.TipsTextView
+        android:id="@+id/vTvMail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vTvPosition"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <com.lixiaoyun.aike.widget.TipsTextView
+        android:id="@+id/vTvPsw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vTvMail"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <TextView
+        android:id="@+id/vTvConfirm"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rectangle_main_5dp"
+        android:gravity="center"
+        android:text="@string/login_registered_button_text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vTvPsw"
+        app:layout_constraintWidth_percent="0.9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

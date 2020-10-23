@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">励销云</string>
+
+    <!--密码规则-->
+    <string name="rule_password">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ¬`~!@#$%^*()"£{}[];':,.?/\|-_=+&#060;&#062;&#064;&#038;</string>
+    <!--接收的H5传递来选择图片的type-->
+    <string name="receive_type_choose_img">image/jpeg,image/gif,image/png,.jpg,.jpeg,.gif,.png</string>
+
+    <string name="message_permission_rationale">请您授予以下权限以继续运行该程序:\n%1$s</string>
+    <string name="message_permission_always_failed">应用允许过程中需要如下权限，请在设置中给予我们权限许可:\n%1$s</string>
+    <string name="message_permission_float_window">请打开锁屏显示和显示悬浮窗的权限</string>
+
+    <string name="log_tip_click_disable">点击被禁用</string>
+
+    <string name="login_username_hint">请输入用户名</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_phone_hint">请输入手机号</string>
+    <string name="login_code_hint">请输入验证码</string>
+    <string name="retrieve_new_hint">请输入新密码</string>
+    <string name="retrieve_new_tiw_hint">再次输入新密码</string>
+    <string name="login_login_button_text">登录</string>
+    <string name="login_verification_button_text">验证</string>
+    <string name="registered_button_text">注册</string>
+    <string name="login_registered_button_text">完成注册</string>
+    <string name="login_forget_button_text">忘记密码？</string>
+    <string name="login_forget_confirm_button_text">修改密码</string>
+    <string name="network_not_fund">无网络连接,请检查网络设置</string>
+    <string name="username_empty">请输入手机号</string>
+    <string name="pwd_empty">请输入密码</string>
+
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+
+    <!--注册相关-->
+    <string name="register_get_next">下一步</string>
+    <string name="register_get_code">获取验证码</string>
+
+    <string name="toast_data_err">照片数据有误，请稍后再试</string>
+
+    <!--前台服务-->
+    <string name="tip_keep_alive_service">励销云平台实时为您服务</string>
+    <!--通知渠道信息-->
+    <string name="notify_channel_name">励销云通知</string>
+    <string name="notify_channel_description">励销云通知信息展示渠道</string>
+
+    <!--推送拨号错误信息-->
+    <string name="toast_take_call_back_stage">请确保您的励销云APP处于前台活动状态，否则无法被唤起</string>
+    <string name="toast_take_call_calling">您的励销云APP正在通话中，无法被唤起。请在通话结束后，重新尝试</string>
+    <string name="toast_take_call_not_same">您当前登录的励销云APP账户与网页端登录账户不一致，无法被唤起</string>
+    <string name="toast_take_call_time_out">唤起励销云APP超时，请重新尝试</string>
+
+    <!--服务协议-->
+    <string name="text_service_agreement">1.关于\n\n本服务条款是你（包括使用的个人和其代表的企业）与上海微问家信息技术有限公司（下称微问家）之间的协议。
+        是由微问家提供的互联网软件服务，你注册本服务即代表接受本服务条款，并且注册成功之时即成为本合约一方、受本服务条款约束。\n\n微问家在必要的情况下有权对本
+        条款进行修订，未经你明确同意，微问家不会削减你按照本服务条款所应享有的权利，修订的条款始终公开，对于重大变更，微问家还会通过弹出窗口、推送通知等方式
+        向你提供更为显著的通知。\n\n2.帐号\n\n你同意并理解你有责任将你自己用于获得本服务的任何帐号及相关密码保密，并且负责对你帐号下因你本人操作所发生的所有行为
+        和内容负责。\n\n3.付款\n\n你注册本服务或者其中某服务，即表示你同意支付其中的所有费用。并且免费试用期过后，若未付款你将不再享有本服务的使用权，微问家有权
+        随时删除因你试用本服务所产生的所有的数据。\n\n4.数据和程序归属权\n\n1.你在微问家平台创建的独创性数据归你所有，你有权进行任何形式的处置，包括从平台中复
+        制、导出和删除\n\n2.微问家的应用程序、源代码、LOGO、界面设计、应用程序编程接口（API）所关联的所有知识产权均归属微问家\n\n5.隐私政策\n\n使用本服务，即表示
+        你同意微问家合法收集和使用有关你及你所使用本服务的技术性或诊断性信息，收集到的这些信息微问家只会用于提供和改进服务，我们不会与广告商或其他任何人共享收
+        集到的信息，除了以下非常有限的情况；\n\n1.你同意让第三方共享资料；\n\n2.我们有时会与其他公司签订合同，让他们代表我们提供服务（如客户支持、数据管理和技术
+        基础设施服务）。如果这些公司在提供服务的过程中需要使用你的信息，经你同意，我们可能会向其提供对你的数据的访问权。这些公司必须对你的信息保密，且不得将你
+        的信息用于完成微问家委托工作以外的任何目的；\n\n3.我们不会向第三方（包括执法机关、其他政府实体或民事当事人，但我们的分销商除外）披露客户数据，除非你指示
+        我们这样做或法律要求我们这样做。如果第三方向我们索要客户数据，我们将尝试指示第三方直接向你索要相关数据。作为此过程的一部分，经你同意，我们可能会将你的
+        基本联系信息提供给第三方。如果我们由于法律原因被迫向第三方披露客户数据，我们将在披露之前通过商业上合理的手段通知你，除非法律禁止这样做。\n\n6.服务连续性
+        \n\n1.微问家将尽最大努力保障软件平台的连续可靠运行；\n\n2.微问家将尽最大努力保障客户数据的安全备份；\n\n3.在发生需要从备份文件中恢复数据的情形时，微问家通
+        常需要4至48小时完成，在此时间范围内的数据恢复视作服务是连续的。\n\n7.终止\n\n你可随时终止帐号或者停用本服务，但在服务终止前支付的任何费用均不能退还（除本
+        服务条款另有明文允许者除外）。\n\n在你违反本服务条款的情况下，微问家有权终止或暂停你所有或部分账号或本服务之进入，但会提前在合理时间内通知你。\n\n微问家
+        可随时在某些情况下不需要事先通知，立即终止或暂停你所有或部分帐号或本服务之进入。此类服务终止的原因包括但不限于：\n\n1. 你要求取消或终止帐号；\n\n2. 需要
+        听从法院传票、法律命令或遵循法律程序；\n\n3. 突发的自然灾害导致的问题；\n\n4. 战争、军事行动、暴动或武装叛乱；\n\n5. 你没有支付与本服务相关的费用且账户到
+        期；一旦帐号终止，你将无法正常使用本服务，此外，微问家将依据你的请求，删除账号下所有信息和内容。\n\n最近修订2019年08月27日\n@上海微问家信息技术有限公司
+        保留一切权利。</string>
+
+    <!--注册事件名称-->
+    <string name="register_uploadUserInfo">util.domainStorage.getItem</string>
+    <string name="register_setTitle">biz.navigation.setTitle</string>
+    <string name="register_setLeft">biz.navigation.setLeft</string>
+    <string name="register_setRight">biz.navigation.setRight</string>
+    <string name="register_goBack">biz.navigation.goBack</string>
+    <string name="register_close">biz.navigation.close</string>
+    <string name="register_setMenu">biz.navigation.setMenu</string>
+    <string name="register_setMenuCount">biz.navigation.setMenuCount</string>
+    <string name="register_exitApp">biz.navigation.exitApp</string>
+    <string name="register_bluetooth_name">biz.util.bluetooth.name</string>
+    <string name="register_bluetooth_print">biz.util.bluetooth.print</string>
+    <string name="register_bluetooth_select">biz.util.bluetooth.select</string>
+    <string name="register_domain_removeItem">util.domainStorage.removeItem</string>
+    <string name="register_domain_setItem">util.domainStorage.setItem</string>
+    <string name="register_scan">biz.util.scan</string>
+    <string name="register_share">biz.util.share</string>
+    <string name="register_logout">biz.util.logout</string>
+    <string name="register_previewFile">biz.util.previewFile</string>
+    <string name="register_uploadImageFromCamera">biz.util.uploadImageFromCamera</string>
+    <string name="register_previewImage">biz.util.previewImage</string>
+    <string name="register_uploadImage">biz.util.uploadImage</string>
+    <string name="register_dateTimePicker">biz.util.dateTimePicker</string>
+    <string name="register_timePicker">biz.util.timePicker</string>
+    <string name="register_datePicker">biz.util.datePicker</string>
+    <string name="register_openLink">biz.util.openLink</string>
+    <string name="register_fetchImageData">biz.util.fetchImageData</string>
+    <string name="register_download">device.audio.download</string>
+    <string name="register_audioStop">device.audio.stop</string>
+    <string name="register_audioResume">device.audio.resume</string>
+    <string name="register_audioPause">device.audio.pause</string>
+    <string name="register_audioPlay">device.audio.play</string>
+    <string name="register_audioPlayEnd">device.audio.playEnd</string>
+    <string name="register_recordStop">device.audio.stopRecord</string>
+    <string name="register_recordStart">device.audio.startRecord</string>
+    <string name="register_recordEnd">device.audio.onRecordEnd</string>
+    <string name="register_geolocationGet">device.geolocation.get</string>
+    <string name="register_mapView">biz.map.view</string>
+    <string name="register_networkType">device.connection.getNetworkType</string>
+    <string name="register_phoneInfo">device.base.getPhoneInfo</string>
+    <string name="register_eventSave">biz.util.event.save</string>
+    <string name="register_callPhone">biz.util.telephone.call</string>
+    <string name="register_callPublicTelephone">biz.util.telephone.callPublic</string>
+    <string name="register_salesDynamicsReload">biz.util.salesDynamics.reload</string>
+    <string name="register_getSimAmount">biz.util.device.simAmount</string>
+
+    <!--调用事件名称-->
+    <string name="call_uploadImage">uploadImageOnConfirm</string>
+    <string name="call_uploadImageFromCamera">uploadImageFromCameraOnConfirm</string>
+    <string name="call_left_click">setLeftonClick</string>
+    <string name="call_right_click">setRightonClick</string>
+    <string name="call_menu_click">setMenuonClick</string>
+    <string name="call_audio_finish">device.audio.onPlayEnd</string>
+    <string name="call_share">setShareData</string>
+    <string name="call_callerDisplay">onCallerDisplay</string>
+    <string name="call_notification">onNotification</string>
+    <string name="call_enableCarousel">enableCarousel</string>
+
+</resources>
